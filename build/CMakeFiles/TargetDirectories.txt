@@ -1,0 +1,3 @@
+/home/padell/Escritorio/OpenGL-HelloTriangle/build/CMakeFiles/my_opengl_project.dir
+/home/padell/Escritorio/OpenGL-HelloTriangle/build/CMakeFiles/edit_cache.dir
+/home/padell/Escritorio/OpenGL-HelloTriangle/build/CMakeFiles/rebuild_cache.dir

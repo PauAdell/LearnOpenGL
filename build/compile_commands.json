@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/padell/Escritorio/OpenGL-HelloTriangle/build",
+  "command": "/usr/bin/c++ -I/home/padell/Escritorio/OpenGL-HelloTriangle/build/configuration -I/home/padell/Escritorio/OpenGL-HelloTriangle/glm-1.0.1 -g -o CMakeFiles/my_opengl_project.dir/src/main.cpp.o -c /home/padell/Escritorio/OpenGL-HelloTriangle/src/main.cpp",
+  "file": "/home/padell/Escritorio/OpenGL-HelloTriangle/src/main.cpp",
+  "output": "CMakeFiles/my_opengl_project.dir/src/main.cpp.o"
+},
+{
+  "directory": "/home/padell/Escritorio/OpenGL-HelloTriangle/build",
+  "command": "/usr/bin/gcc-12 -I/home/padell/Escritorio/OpenGL-HelloTriangle/build/configuration -I/home/padell/Escritorio/OpenGL-HelloTriangle/glm-1.0.1 -g -o CMakeFiles/my_opengl_project.dir/src/glad.c.o -c /home/padell/Escritorio/OpenGL-HelloTriangle/src/glad.c",
+  "file": "/home/padell/Escritorio/OpenGL-HelloTriangle/src/glad.c",
+  "output": "CMakeFiles/my_opengl_project.dir/src/glad.c.o"
+}
+]
