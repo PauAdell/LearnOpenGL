@@ -82,8 +82,6 @@ bool firstMouse = true;
 
 bool blinn = false;
 bool blinnKeyPressed = false;
-bool setGamma = false;
-bool setGammaKeyPressed = false;
 
 int main() {
 
@@ -182,18 +180,7 @@ int main() {
     // draw as wireframe
     //glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
 
-    glm::vec3 lightPositions[] = {
-        glm::vec3(-3.0f, 0.0f, 0.0f),
-        glm::vec3(-1.0f, 0.0f, 0.0f),
-        glm::vec3 (1.0f, 0.0f, 0.0f),
-        glm::vec3 (3.0f, 0.0f, 0.0f)
-    };
-    glm::vec3 lightColors[] = {
-        glm::vec3(0.25),
-        glm::vec3(0.50),
-        glm::vec3(0.75),
-        glm::vec3(1.00)
-    };
+    glm::vec3 lightPos(0.0f, 0.0f, 0.0f);
 
     while(!glfwWindowShouldClose(window)) {
 
@@ -220,10 +207,8 @@ int main() {
         shader.setMat4("view", view);
         // set light uniforms
         shader.setVec3("viewPos", camera.Position);
-        glUniform3fv(glGetUniformLocation(shader.ID, "lightPositions"), 4, &lightPositions[0][0]);
-        glUniform3fv(glGetUniformLocation(shader.ID, "lightColors"), 4, &lightColors[0][0]);
-        shader.setBool("blinn", blinn);
-        shader.setBool("gamma", setGamma);
+        shader.setVec3("lightPos", lightPos);
+        shader.setInt("blinn", blinn);
         // floor
         glBindVertexArray(planeVAO);
         glActiveTexture(GL_TEXTURE0);
@@ -267,16 +252,6 @@ void processInput(GLFWwindow *window)
     if (glfwGetKey(window, GLFW_KEY_B) == GLFW_RELEASE) 
     {
         blinnKeyPressed = false;
-    }
-
-    if (glfwGetKey(window, GLFW_KEY_G) == GLFW_PRESS && !setGammaKeyPressed) 
-    {
-        setGamma = !setGamma;
-        setGammaKeyPressed = true;
-    }
-    if (glfwGetKey(window, GLFW_KEY_G) == GLFW_RELEASE) 
-    {
-        setGammaKeyPressed = false;
     }
 }
 
