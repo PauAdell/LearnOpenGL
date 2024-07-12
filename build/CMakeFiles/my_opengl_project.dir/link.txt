@@ -1,1 +1,1 @@
-/usr/bin/g++ -g -rdynamic CMakeFiles/my_opengl_project.dir/src/main.cpp.o CMakeFiles/my_opengl_project.dir/src/glad.c.o -o my_opengl_project  -lglfw 
+/usr/bin/c++ -g -rdynamic CMakeFiles/my_opengl_project.dir/src/main.cpp.o CMakeFiles/my_opengl_project.dir/src/glad.c.o -o my_opengl_project  -lglfw /usr/lib/x86_64-linux-gnu/libassimp.so.5.2.0 -lz /usr/lib/x86_64-linux-gnu/libdraco.so.4.0.0 -lminizip -Wl,-Bstatic -lrt -Wl,-Bdynamic 

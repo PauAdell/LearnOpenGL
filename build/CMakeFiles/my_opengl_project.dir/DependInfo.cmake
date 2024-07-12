@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/pars/Desktop/OpenGL-HelloTriangle/src/glad.c" "CMakeFiles/my_opengl_project.dir/src/glad.c.o" "gcc" "CMakeFiles/my_opengl_project.dir/src/glad.c.o.d"
-  "/home/pars/Desktop/OpenGL-HelloTriangle/src/main.cpp" "CMakeFiles/my_opengl_project.dir/src/main.cpp.o" "gcc" "CMakeFiles/my_opengl_project.dir/src/main.cpp.o.d"
+  "/home/pars/Desktop/OpenGLRepo/LearnOpenGL/src/glad.c" "CMakeFiles/my_opengl_project.dir/src/glad.c.o" "gcc" "CMakeFiles/my_opengl_project.dir/src/glad.c.o.d"
+  "/home/pars/Desktop/OpenGLRepo/LearnOpenGL/src/main.cpp" "CMakeFiles/my_opengl_project.dir/src/main.cpp.o" "gcc" "CMakeFiles/my_opengl_project.dir/src/main.cpp.o.d"
   )
 
 # Targets to which this target links.
