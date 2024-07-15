@@ -1,3 +1,0 @@
-/home/pars/Desktop/OpenGLRepo/LearnOpenGL/build/CMakeFiles/my_opengl_project.dir
-/home/pars/Desktop/OpenGLRepo/LearnOpenGL/build/CMakeFiles/edit_cache.dir
-/home/pars/Desktop/OpenGLRepo/LearnOpenGL/build/CMakeFiles/rebuild_cache.dir
