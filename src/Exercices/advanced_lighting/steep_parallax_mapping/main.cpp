@@ -128,12 +128,12 @@ int main() {
 
     // load textures
     // -------------
-    unsigned int diffuseMap = loadTexture(FileSystem::getPath("src/textures/bricks2.jpg").c_str());
-    unsigned int normalMap  = loadTexture(FileSystem::getPath("src/textures/bricks2_normal.jpg").c_str());
-    unsigned int depthMap  = loadTexture(FileSystem::getPath("src/textures/bricks2_disp.jpg").c_str());
-    //unsigned int diffuseMap = loadTexture(FileSystem::getPath("src/textures/toy_box_diffuse.png").c_str());
-    //unsigned int normalMap  = loadTexture(FileSystem::getPath("src/textures/toy_box_normal.png").c_str());
-    //unsigned int depthMap  = loadTexture(FileSystem::getPath("src/textures/toy_box_disp.png").c_str());
+    //unsigned int diffuseMap = loadTexture(FileSystem::getPath("src/textures/bricks2.jpg").c_str());
+    //unsigned int normalMap  = loadTexture(FileSystem::getPath("src/textures/bricks2_normal.jpg").c_str());
+    //unsigned int depthMap  = loadTexture(FileSystem::getPath("src/textures/bricks2_disp.jpg").c_str());
+    unsigned int diffuseMap = loadTexture(FileSystem::getPath("src/textures/toy_box_diffuse.png").c_str());
+    unsigned int normalMap  = loadTexture(FileSystem::getPath("src/textures/toy_box_normal.png").c_str());
+    unsigned int depthMap  = loadTexture(FileSystem::getPath("src/textures/toy_box_disp.png").c_str());
 
 
 
